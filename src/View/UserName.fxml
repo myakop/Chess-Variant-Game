@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.UserName">
+   <children>
+      <Button fx:id="backbuttom" layoutX="33.0" layoutY="25.0" mnemonicParsing="false" onAction="#backbutto" style="-fx-background-color: #769656;" text="back" textFill="#eeeed2" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Button>
+      <AnchorPane layoutX="94.0" layoutY="119.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="180.0" prefWidth="200.0" AnchorPane.bottomAnchor="81.0" AnchorPane.leftAnchor="94.0" AnchorPane.rightAnchor="106.0" AnchorPane.topAnchor="119.0">
+         <children>
+            <TextField fx:id="namefield" layoutX="182.0" layoutY="117.0" onAction="#goStartGame" prefHeight="35.0" prefWidth="233.0" AnchorPane.leftAnchor="182.0" AnchorPane.rightAnchor="185.0" />
+            <Label alignment="CENTER" layoutX="303.0" layoutY="24.0" text="Write You'r Name/NickName" textFill="#769656" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="20.0">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="goStartGame" alignment="CENTER" layoutX="250.0" layoutY="390.0" mnemonicParsing="false" onAction="#goStartGame" style="-fx-background-color: 769656; -fx-background-color: #769656;" text="Start" textFill="#eeeed2" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="390.0">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="infopage" layoutX="735.0" layoutY="35.0" mnemonicParsing="false" onAction="#infopage" style="-fx-background-color: #769656;" text="info" textFill="#eeeed2" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
